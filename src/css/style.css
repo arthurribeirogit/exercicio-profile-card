@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body{
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo);
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;   
+}
+
+img {
+    
+    border-radius: 50%;
+}
+
+.nome-e-idade {
+    font-weight: 700;
+}
+
+span {
+    color:  var(--cor-de-texto);
+}
+
+.city {
+    color:  var(--cor-de-texto);
+}
+
+hr{
+    width: 100%;
+}
+
+.informacoes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.informacoes li {
+    margin: 10px;
+}
+
+.fonte-destaque {
+    font-weight: 700;
+}
+
+p {
+    color: var(--cor-de-texto);
+    font-weight: 400;
+}
